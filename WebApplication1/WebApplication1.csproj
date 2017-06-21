@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\Lou (1) - Copy.jpg" />
+    <Content Include="wwwroot\images\lou (1).png" />
+    <Content Include="wwwroot\images\portfolio\Lou (1) - Copy.jpg" />
+    <Content Include="wwwroot\images\portfolio\readMeStuff.gif" />
+    <Content Include="wwwroot\images\portfolio\readMeStuff2.gif" />
+    <Content Include="wwwroot\images\portfolio\readMeStuff3.gif" />
+    <Content Include="wwwroot\images\portfolio\sc1.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc2.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc3.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc4.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc5.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc6.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc7.jpg" />
+    <Content Include="wwwroot\images\portfolio\sc8.jpg" />
+    <Content Include="wwwroot\images\slider\4.jpg" />
+    <Content Include="wwwroot\images\slider\5.jpg" />
+    <Content Include="wwwroot\images\slider\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
