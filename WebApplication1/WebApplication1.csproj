@@ -23,9 +23,13 @@
     <Content Include="wwwroot\images\portfolio\sc6.jpg" />
     <Content Include="wwwroot\images\portfolio\sc7.jpg" />
     <Content Include="wwwroot\images\portfolio\sc8.jpg" />
+    <Content Include="wwwroot\images\R6ZWbAb.jpg" />
     <Content Include="wwwroot\images\slider\4.jpg" />
     <Content Include="wwwroot\images\slider\5.jpg" />
     <Content Include="wwwroot\images\slider\6.jpg" />
+    <Content Include="wwwroot\images\slider\7.jpg" />
+    <Content Include="wwwroot\images\team\about-bg2.jpg" />
+    <Content Include="wwwroot\sendemail.php" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -37,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\_portfolio-single.cshtml" />
   </ItemGroup>
 
 </Project>
